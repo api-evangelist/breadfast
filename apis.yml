@@ -1,7 +1,17 @@
 aid: breadfast
 name: Breadfast
-description: Breadfast is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Breadfast is an Egyptian quick-commerce and online grocery platform, founded in
+  2017 in Cairo by Mostafa Amin, Muhammad Habib, and Abdallah Nofal. It delivers
+  groceries, freshly baked bread, dairy, fresh produce, ready-to-eat meals,
+  household essentials, pharmacy, and beauty products — more than 7,000 SKUs — to
+  customers in roughly 60 minutes through a vertically integrated network of dark
+  stores and company-owned bakeries, and also operates Breadfast Pay fintech
+  services. The company serves 300,000+ active users across Cairo, Giza,
+  Alexandria, and Mansoura and processes close to a million orders a month.
+  Breadfast runs a consumer WordPress/WooCommerce marketing site and native
+  iOS/Android apps and does not publish a public developer API; this profile
+  tracks the company in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/breadfast/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Grocery
+- Quick Commerce
+- Delivery
+- E-Commerce
+- Retail
+- Fintech
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/breadfast-domain-security.yml
 - type: Website
   url: https://breadfast.com
+- type: Blog
+  url: https://www.breadfast.com/blog/
+- type: TermsOfService
+  url: https://www.breadfast.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.breadfast.com/privacy-policy/
+- type: Careers
+  url: https://www.breadfast.com/careers/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
