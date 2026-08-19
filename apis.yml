@@ -31,7 +31,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.breadfast.com/wp-content/uploads/2019/02/cropped-favicon-1-150x150-1-192x192.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
