@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/breadfast/integrations
+- https://n8n.io/integrations/breadfast/
+- https://composio.dev/toolkits/breadfast
+- https://monid.ai/tools/breadfast
+checked:
+- https://composio.dev/toolkits/breadfast
+- https://monid.ai/tools/breadfast
+- https://n8n.io/integrations/breadfast/
+- https://zapier.com/apps/breadfast/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
